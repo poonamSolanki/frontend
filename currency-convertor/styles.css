@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  ::selection {
+    background: rgb(215, 151, 215);
+    color: #fff;
+  }
+
+  body 
+  {
+    min-height: 100vh;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(185, 164, 185);
+  }
+
+  .main {
+    width: 370px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.01);
+  }
+
+  .main header {
+    font-size: 22px;
+    font-weight: 600;
+    text-align:center;
+  }
+  .main form 
+  {
+    margin: 40px 0 20px 0;
+  }
+
+  .main form input,
+.main form select,
+.main form button {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.main form p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .main form input {
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #999;
+    font-size: 17px;
+  }
+  .main form input:focus {
+    border: 2px solid rgb(206, 130, 206);
+    padding: 0 14px;
+  }
+  .main form .drop-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+   .main form .drop-list .select-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 45px;
+    border: 1px solid #999;
+    border-radius: 5px;
+  }  
+  
+  .main form .drop-list .select-box img {
+    max-width: 21px;
+  }
+  .main form .drop-list .select-box select {
+    width: auto;
+    font-size: 16px;
+    background: none;
+    margin: 0 -5px 0 5px;
+  }
+
+  .main form .drop-list .select-box select::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .main form .drop-list .select-box select::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  .main form .drop-list .select-box select::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+    border-right: 2px solid #fff;
+  }
+  
+
+  .main .drop-list .icon {
+    font-size: 22px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  .main form .exchange-rate {
+    font-size: 16px;
+    margin: 20px 0 30px;
+  }
+
+  .main form button {
+    height: 52px;
+    background: rgb(97, 52, 97);
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .main form button:hover {
+    background: transparent;
+    color: rgb(111, 65, 111);
+    border: 2px solid rgb(82, 51, 82);
+  }
+  
+  
